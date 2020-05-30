@@ -1,9 +1,10 @@
 module.exports = {
-    publicPath : "./",
-    
+    publicPath : './',
+
     outputDir : "dist",
 
-    assetsDir : "static"
+    assetsDir : "assets",
 
-
-} 
+    productionSourceMap  : false,
+    
+   }
