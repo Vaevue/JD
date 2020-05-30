@@ -35,7 +35,7 @@ export default {
     },
     methods:{
         goSearch(){
-            location.href = '/search'
+            this.$router.push('/search')
         }
     }
 }
